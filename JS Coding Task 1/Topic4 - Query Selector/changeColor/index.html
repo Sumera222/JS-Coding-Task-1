@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Change the Background Color in JavaScript</title>
+<style>
+    p{ font-size: larger;
+       font-weight: bold;}
+</style>
+</head>
+
+<body>
+    <p class="abc">Function to change paragraph background color from white to blue. <br>Create an index.html file. You can add a script by any of the methods. Add a paragraph. Make a button and use an onclick function. When the button is clicked, use the query selector to change the background color of your paragraph from white to blue. </p>
+    
+    <button onclick="myFunction()">Change color</button>
+    <script>
+        function myFunction() {
+          document.querySelector(".abc").style.backgroundColor = "blue";
+        }
+        
+        </script>
+
+    
+</body>
+
+</html>
